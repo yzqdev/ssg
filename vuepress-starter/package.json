@@ -1,0 +1,19 @@
+{
+  "name": "ssg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yzqdev/ssg.git",
+  "author": "yzqdev <yzqdev@outlook.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress  build --clean-cache --clean-temp",
+    "docs:clean": "rimraf .vuepress/.temp .vuepress/.cache .vuepress/dist",
+    "docs:dev": "vuepress  dev  docs --clean-cache --clean-temp",
+    "docs:serve": "anywhere -s -h localhost -d .vuepress/dist"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "next",
+    "vuepress": "next"
+  }
+}

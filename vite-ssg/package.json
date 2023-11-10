@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env DEBUG=vite-ssg:* vite",
+    "build": "cross-env DEBUG=vite-ssg:* vite-ssg build",
+    "serve": "vite preview",
+    "lint": "prettier --write src/**/*.{vue,ts,css,scss}"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.5.0",
+    "@vueuse/head": "^2.0.0",
+    "markdown-it-prism": "^2.3.0",
+    "md-editor-v3": "^4.8.2",
+    "sass": "^1.69.5",
+    "vite-plugin-vue-markdown": "^0.23.8",
+    "vue": "^3.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@unhead/vue": "^1.8.0",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.5.0",
+    "vite-plugin-pages": "^0.31.0",
+    "vite-ssg": "latest",
+    "vue-router": "^4.2.5"
+  }
+}
