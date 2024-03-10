@@ -14,9 +14,7 @@ export default defineConfig({
     lang: "zh-CN",
     title: "VitePress",
     description: "Vue 驱动的静态网站生成器",
-    vue: {
-
-    },
+    vue: {},
     themeConfig: {
         logo: "/vue.svg",
         search: {

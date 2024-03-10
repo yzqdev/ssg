@@ -4,10 +4,11 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
+  "type": "module",
   "devDependencies": {
     "vitepress": "1.0.0-rc.31"
   },
   "dependencies": {
-    "vue": "^3.3.11"
+    "vue": "^3.4.21"
   }
 }
