@@ -12,7 +12,7 @@
     "start": "next start"
   },
   "devDependencies": {
-    "@types/node": "20.10.4",
-    "typescript": "5.3.3"
+    "@types/node": "20.11.25",
+    "typescript": "5.4.2"
   }
 }
