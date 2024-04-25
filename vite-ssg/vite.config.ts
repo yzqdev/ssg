@@ -4,7 +4,7 @@ import Pages from "vite-plugin-pages";
 import Components from "unplugin-vue-components/vite";
 import AutoImport from "unplugin-auto-import/vite";
 import Vue from "@vitejs/plugin-vue";
-import Markdown from "vite-plugin-vue-markdown";
+import Markdown from "unplugin-vue-markdown/vite";
 import prism from "markdown-it-prism";
 export default defineConfig({
   base: "/",
