@@ -64,6 +64,7 @@ export default hopeTheme({
   },
 
   plugins: {
+    components:{components:["ArtPlayer"]},
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
@@ -77,23 +78,16 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
       codetabs: true,
       demo: true,
-      echarts: true,
       figure: true,
-      flowchart: true,
-      gfm: true,
       imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
       mark: true,
-      mermaid: true,
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
@@ -113,7 +107,6 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",

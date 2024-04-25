@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
+import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   base: "/",
 
@@ -16,7 +16,7 @@ export default defineUserConfig({
       description: "vuepress-theme-hope 的文档演示",
     },
   },
-
+ bundler: viteBundler(),
   theme,
 
   // Enable it with pwa
