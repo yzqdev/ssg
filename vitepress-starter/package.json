@@ -6,9 +6,9 @@
   },
   "type": "module",
   "devDependencies": {
-    "vitepress": "1.0.0"
+    "vitepress": "1.2.3"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.27"
   }
 }

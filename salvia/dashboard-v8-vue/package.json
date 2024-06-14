@@ -25,22 +25,22 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
+    "eslint": "^9.4.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-tailwindcss": "^3.15.1",
-    "eslint-plugin-vue": "^9.23.0",
+    "eslint-plugin-tailwindcss": "^3.17.3",
+    "eslint-plugin-vue": "^9.26.0",
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.7",
     "postcss": "^8.4.38",
-    "prettier": "^3.2.5",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.2.2"
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.0"
   }
 }
